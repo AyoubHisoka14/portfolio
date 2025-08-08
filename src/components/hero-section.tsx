@@ -40,7 +40,7 @@ export function HeroSection() {
             transition={{ delay: 0.4 }}
             className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white"
           >
-            Your Name
+            Ayoub Bahammou
           </motion.h1>
 
           {/* Title */}
@@ -77,7 +77,7 @@ export function HeroSection() {
               <Mail className="h-5 w-5" />
               {t("hero.cta")}
             </button>
-            
+
             <a
               href="/resume.pdf"
               download
@@ -106,4 +106,4 @@ export function HeroSection() {
       </div>
     </section>
   );
-} 
+}

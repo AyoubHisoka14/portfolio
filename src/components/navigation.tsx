@@ -12,6 +12,7 @@ const navItems = [
   { name: "nav.skills", href: "#skills" },
   { name: "nav.projects", href: "#projects" },
   { name: "nav.experience", href: "#experience" },
+  { name: "nav.education", href: "#education" },
   { name: "nav.contact", href: "#contact" },
 ];
 
@@ -33,7 +34,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-              Your Name
+              AYOUB BAHAMMOU
             </h1>
           </div>
 
@@ -55,7 +56,7 @@ export function Navigation() {
           <div className="flex items-center space-x-2">
             <LanguageToggle />
             <ThemeToggle />
-            
+
             {/* Mobile menu button */}
             <div className="md:hidden">
               <button
@@ -87,4 +88,4 @@ export function Navigation() {
       </div>
     </nav>
   );
-} 
+}

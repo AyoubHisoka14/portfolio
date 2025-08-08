@@ -12,7 +12,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-6 md:mb-0">
-            <h3 className="text-xl font-bold mb-2">Your Name</h3>
+            <h3 className="text-xl font-bold mb-2">Ayoub Bahammou</h3>
             <p className="text-gray-400 text-sm">
               {t("footer.passionate")}
             </p>
@@ -52,9 +52,9 @@ export function Footer() {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © {currentYear} Your Name. {t("footer.rights")}
+              © {currentYear} Ayoub Bahammou. {t("footer.rights")}
             </p>
-            
+
             <div className="flex items-center gap-2 text-gray-400 text-sm mt-4 md:mt-0">
               <span>{t("footer.madeWith")}</span>
               <Heart className="h-4 w-4 text-red-500" />
@@ -65,4 +65,4 @@ export function Footer() {
       </div>
     </footer>
   );
-} 
+}

@@ -20,16 +20,17 @@ const translations = {
     "nav.skills": "Skills",
     "nav.projects": "Projects",
     "nav.experience": "Experience",
+    "nav.education": "Education",
     "nav.contact": "Contact",
-    
+
     // Hero Section
     "hero.greeting": "Hi, I'm",
-    "hero.title": "Full Stack Developer",
+    "hero.title": "Software Developer",
     "hero.subtitle": "I build modern web applications and mobile apps",
     "hero.description": "Passionate about creating innovative solutions and turning ideas into reality through code.",
     "hero.cta": "Get In Touch",
     "hero.scroll": "Scroll Down",
-    
+
     // About Section
     "about.title": "About Me",
     "about.subtitle": "Get to know me better",
@@ -43,17 +44,18 @@ const translations = {
     "about.birthday": "Birthday",
     "about.degree": "Degree",
     "about.story": "My Story",
-    "about.story1": "I'm a passionate full-stack developer with a strong foundation in modern web technologies. My journey in software development began with curiosity and has evolved into a deep passion for creating innovative solutions.",
-    "about.story2": "Currently working as a Werkstudent (Working Student) in software development, I've gained valuable experience in building scalable applications, collaborating with cross-functional teams, and delivering high-quality software solutions.",
-    "about.story3": "I believe in continuous learning and staying up-to-date with the latest technologies and best practices. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+    "about.story1": "I'm a passionate software developer with a solid foundation in modern web, mobile and backend technologies. I hold a Bachelor's degree in Computer Science, and my journey in software development began with curiosity and has evolved into a deep commitment to building innovative and scalable solutions.",
+    "about.story2": "Currently, I'm working as a Werkstudent (Working Student) in Android development, where I’ve gained valuable hands-on experience building mobile applications and collaborating within agile teams.",
+    "about.story3": "I enjoy working across different tech stacks, writing clean and maintainable code and designing systems that solve real-world problems. " +
+        "I strongly believe in continuous learning and staying up-to-date with the latest tools, frameworks, and best practices. Outside of work, I like to explore new technologies and engage with the developer community.",
     "about.yearsExp": "Years Experience",
     "about.projectsComp": "Projects Completed",
-    
+
     // Skills Section
     "skills.title": "Skills & Technologies",
     "skills.subtitle": "Technologies I work with",
     "skills.additional": "Additional Skills",
-    
+
     // Projects Section
     "projects.title": "My Projects",
     "projects.subtitle": "Some of my recent work",
@@ -64,7 +66,7 @@ const translations = {
     "projects.code": "Code",
     "projects.liveDemo": "Live Demo",
     "projects.viewMore": "View More on GitHub",
-    
+
     // Experience Section
     "experience.title": "Experience",
     "experience.subtitle": "My professional journey",
@@ -81,7 +83,17 @@ const translations = {
     "experience.softwareEng": "Software Engineering",
     "experience.machineLearning": "Machine Learning",
     "experience.networks": "Computer Networks",
-    
+
+    // Education Section
+    "education.title": "Education",
+    "education.subtitle": "My academic background and qualifications",
+    "education.relevantCoursework": "Relevant Coursework",
+    "education.additionalInfo": "Additional Information",
+    "education.language": "Language of Instruction",
+    "education.gpa": "GPA",
+    "education.duration": "Duration",
+    "education.years": "Years",
+
     // Contact Section
     "contact.title": "Get In Touch",
     "contact.subtitle": "Let's work together",
@@ -101,17 +113,17 @@ const translations = {
     "contact.available": "I'm currently available for freelance work and open to new opportunities.",
     "contact.availableForProjects": "Available for new projects",
     "contact.sendMessage": "Send Me a Message",
-    "contact.namePlaceholder": "Your name",
+    "contact.namePlaceholder": "Ayoub Bahammou",
     "contact.emailPlaceholder": "your.email@example.com",
     "contact.subjectPlaceholder": "What's this about?",
     "contact.messagePlaceholder": "Tell me about your project or opportunity...",
-    
+
     // Footer
     "footer.rights": "All rights reserved.",
-    "footer.passionate": "Full-Stack Developer passionate about creating amazing web experiences",
+    "footer.passionate": "Software Developer passionate about creating amazing code solutions",
     "footer.madeWith": "Made with",
     "footer.using": "using Next.js & Tailwind CSS",
-    
+
     // Additional Skills
     "skill.restful": "RESTful APIs",
     "skill.graphql": "GraphQL",
@@ -138,16 +150,17 @@ const translations = {
     "nav.skills": "Fähigkeiten",
     "nav.projects": "Projekte",
     "nav.experience": "Erfahrung",
+    "nav.education": "Ausbildung",
     "nav.contact": "Kontakt",
-    
+
     // Hero Section
     "hero.greeting": "Hallo, ich bin",
-    "hero.title": "Full Stack Entwickler",
+    "hero.title": "Software Entwickler",
     "hero.subtitle": "Ich entwickle moderne Webanwendungen und mobile Apps",
     "hero.description": "Leidenschaftlich für innovative Lösungen und die Umsetzung von Ideen in die Realität durch Code.",
     "hero.cta": "Kontakt aufnehmen",
     "hero.scroll": "Nach unten scrollen",
-    
+
     // About Section
     "about.title": "Über mich",
     "about.subtitle": "Lernen Sie mich besser kennen",
@@ -161,17 +174,17 @@ const translations = {
     "about.birthday": "Geburtstag",
     "about.degree": "Abschluss",
     "about.story": "Meine Geschichte",
-    "about.story1": "Ich bin ein leidenschaftlicher Full-Stack-Entwickler mit einer soliden Grundlage in modernen Webtechnologien. Meine Reise in der Softwareentwicklung begann mit Neugier und hat sich zu einer tiefen Leidenschaft für die Entwicklung innovativer Lösungen entwickelt.",
-    "about.story2": "Derzeit arbeite ich als Werkstudent in der Softwareentwicklung und habe wertvolle Erfahrungen im Aufbau skalierbarer Anwendungen, in der Zusammenarbeit mit funktionsübergreifenden Teams und in der Bereitstellung hochwertiger Softwarelösungen gesammelt.",
-    "about.story3": "Ich glaube an kontinuierliches Lernen und daran, mit den neuesten Technologien und Best Practices auf dem Laufenden zu bleiben. Wenn ich nicht programmiere, finden Sie mich beim Erkunden neuer Technologien, beim Beitrag zu Open-Source-Projekten oder beim Teilen von Wissen mit der Entwicklergemeinschaft.",
+    "about.story1": "Ich bin ein leidenschaftlicher Softwareentwickler mit einem soliden Fundament in modernen Web-, Mobile- und Backend-Technologien. Ich habe einen Bachelorabschluss in Informatik und meine Reise in der Softwareentwicklung begann aus Neugier – heute ist sie eine echte Leidenschaft für die Entwicklung innovativer und skalierbarer Lösungen.",
+    "about.story2": "Derzeit arbeite ich als Werkstudent im Bereich Android-Entwicklung, wo ich wertvolle praktische Erfahrungen in der Entwicklung mobiler Anwendungen und der Zusammenarbeit in agilen Teams sammle.",
+    "about.story3": "Es macht mir Spaß, mit unterschiedlichen Technologien zu arbeiten, sauberen und wartbaren Code zu schreiben und Systeme zu entwickeln, die reale Probleme lösen. Ich bin überzeugt vom lebenslangen Lernen und halte mich stets über neue Tools, Frameworks und Best Practices auf dem Laufenden. In meiner Freizeit beschäftige ich mich gerne mit neuen Technologien und bin Teil der Entwickler-Community.",
     "about.yearsExp": "Jahre Erfahrung",
     "about.projectsComp": "Abgeschlossene Projekte",
-    
+
     // Skills Section
     "skills.title": "Fähigkeiten & Technologien",
     "skills.subtitle": "Technologien, mit denen ich arbeite",
     "skills.additional": "Weitere Fähigkeiten",
-    
+
     // Projects Section
     "projects.title": "Meine Projekte",
     "projects.subtitle": "Einige meiner aktuellen Arbeiten",
@@ -182,7 +195,7 @@ const translations = {
     "projects.code": "Code",
     "projects.liveDemo": "Live Demo",
     "projects.viewMore": "Mehr auf GitHub ansehen",
-    
+
     // Experience Section
     "experience.title": "Erfahrung",
     "experience.subtitle": "Mein beruflicher Werdegang",
@@ -199,7 +212,17 @@ const translations = {
     "experience.softwareEng": "Software Engineering",
     "experience.machineLearning": "Maschinelles Lernen",
     "experience.networks": "Computernetzwerke",
-    
+
+    // Education Section
+    "education.title": "Ausbildung",
+    "education.subtitle": "Mein akademischer Hintergrund und Qualifikationen",
+    "education.relevantCoursework": "Relevante Kurse",
+    "education.additionalInfo": "Zusätzliche Informationen",
+    "education.language": "Unterrichtssprache",
+    "education.gpa": "Notendurchschnitt",
+    "education.duration": "Dauer",
+    "education.years": "Jahre",
+
     // Contact Section
     "contact.title": "Kontakt aufnehmen",
     "contact.subtitle": "Lassen Sie uns zusammenarbeiten",
@@ -223,13 +246,13 @@ const translations = {
     "contact.emailPlaceholder": "ihre.email@beispiel.com",
     "contact.subjectPlaceholder": "Worum geht es?",
     "contact.messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt oder Ihrer Gelegenheit...",
-    
+
     // Footer
     "footer.rights": "Alle Rechte vorbehalten.",
-    "footer.passionate": "Full-Stack-Entwickler mit Leidenschaft für erstaunliche Web-Erlebnisse",
+    "footer.passionate": "Software Entwickler mit Leidenschaft für erstaunliche Code-Lösungen",
     "footer.madeWith": "Erstellt mit",
     "footer.using": "Next.js & Tailwind CSS",
-    
+
     // Additional Skills
     "skill.restful": "RESTful APIs",
     "skill.graphql": "GraphQL",
@@ -271,4 +294,4 @@ export function useLanguage() {
     throw new Error("useLanguage must be used within a LanguageProvider");
   }
   return context;
-} 
+}

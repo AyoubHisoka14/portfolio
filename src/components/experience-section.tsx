@@ -6,52 +6,21 @@ import { useLanguage } from "./language-provider";
 
 const experiences = [
   {
-    title: "Software Developer (Werkstudent)",
+    title: "Android Developer (Werkstudent)",
     company: "Tech Company GmbH",
-    location: "Berlin, Germany",
-    period: "January 2023 - Present",
-    description: "Working as a part-time software developer while pursuing my studies. Contributing to various projects and gaining hands-on experience in modern web development.",
+    location: "Germany",
+    period: "April 2024 - Present",
+    description: "Working as a part-time Android developer while pursuing my studies. Contributing to mobile app development with focus on both frontend and backend aspects of the application.",
     responsibilities: [
-      "Develop and maintain web applications using React, Next.js, and TypeScript",
-      "Collaborate with cross-functional teams to deliver high-quality software solutions",
+      "Develop and maintain Android applications using Kotlin",
+      "Work on both frontend (UI/UX) and backend components of the app",
+      "Implement unit testing and ensure code quality",
+      "Collaborate with cross-functional teams in an agile environment",
       "Participate in code reviews and contribute to improving development processes",
-      "Work on both frontend and backend development tasks",
-      "Learn and implement new technologies and best practices",
+      "Learn and implement new Android development technologies and best practices",
     ],
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Git"],
+    technologies: ["Kotlin", "Android SDK", "Android Studio", "Unit Testing", "Git", "Agile/Scrum"],
     companyUrl: "https://techcompany.com",
-  },
-  {
-    title: "Frontend Developer Intern",
-    company: "StartupXYZ",
-    location: "Munich, Germany",
-    period: "June 2022 - December 2022",
-    description: "Internship focused on frontend development and user experience design. Worked on improving the company's main product interface.",
-    responsibilities: [
-      "Developed responsive user interfaces using React and Tailwind CSS",
-      "Implemented new features and improved existing functionality",
-      "Conducted user testing and gathered feedback for improvements",
-      "Collaborated with designers to implement UI/UX improvements",
-      "Optimized application performance and accessibility",
-    ],
-    technologies: ["React", "JavaScript", "Tailwind CSS", "Figma", "Jest"],
-    companyUrl: "https://startupxyz.com",
-  },
-  {
-    title: "Freelance Web Developer",
-    company: "Self-Employed",
-    location: "Remote",
-    period: "March 2022 - Present",
-    description: "Working with clients to build custom web solutions and provide technical consulting services.",
-    responsibilities: [
-      "Develop custom websites and web applications for clients",
-      "Provide technical consulting and project planning",
-      "Maintain and update existing client websites",
-      "Ensure projects meet client requirements and deadlines",
-      "Stay updated with latest web development trends and technologies",
-    ],
-    technologies: ["React", "Next.js", "WordPress", "PHP", "MySQL", "AWS"],
-    companyUrl: null,
   },
 ];
 
@@ -165,56 +134,7 @@ export function ExperienceSection() {
           ))}
         </div>
 
-        {/* Education Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="mt-16 bg-white dark:bg-gray-700 rounded-lg shadow-lg p-8 border border-gray-200 dark:border-gray-600"
-        >
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-            {t("experience.education")}
-          </h3>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                Bachelor of Computer Science
-              </h4>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">
-                University Name
-              </p>
-              <div className="flex items-center gap-1 text-gray-500 dark:text-gray-400 text-sm">
-                <Calendar className="h-4 w-4" />
-                <span>2021 - 2024</span>
-              </div>
-            </div>
-            
-            <div>
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                {t("experience.relevantCoursework")}
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  t("experience.dataStructures"),
-                  t("experience.webDev"),
-                  t("experience.database"),
-                  t("experience.softwareEng"),
-                  t("experience.machineLearning"),
-                  t("experience.networks")
-                ].map((course) => (
-                  <span
-                    key={course}
-                    className="px-2 py-1 bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded text-sm"
-                  >
-                    {course}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );

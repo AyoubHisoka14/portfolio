@@ -9,19 +9,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "your.email@example.com",
-    href: "mailto:your.email@example.com",
+    value: "ayoubbahammou2001@gmail.com",
+    href: "mailto:ayoubbahammou2001@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+49 123 456 789",
-    href: "tel:+49123456789",
+    value: "+49 152 293 93 769",
+    href: "tel:+4915229393769",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Berlin, Germany",
+    value: "Darmstadt, Germany",
     href: null,
   },
 ];
@@ -101,7 +101,7 @@ export function ContactSection() {
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 {t("contact.contactInfo")}
               </h3>
-              
+
               <div className="space-y-4">
                 {contactInfo.map((info) => (
                   <div key={info.label} className="flex items-center space-x-4">
@@ -133,7 +133,7 @@ export function ContactSection() {
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 {t("contact.followMe")}
               </h3>
-              
+
               <div className="flex space-x-4">
                 {socialLinks.map((social) => (
                   <a
@@ -177,7 +177,7 @@ export function ContactSection() {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
               {t("contact.sendMessage")}
             </h3>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
@@ -195,7 +195,7 @@ export function ContactSection() {
                     placeholder={t("contact.namePlaceholder")}
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     {t("contact.email")}
@@ -212,7 +212,7 @@ export function ContactSection() {
                   />
                 </div>
               </div>
-              
+
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   {t("contact.subject")}
@@ -228,7 +228,7 @@ export function ContactSection() {
                   placeholder={t("contact.subjectPlaceholder")}
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   {t("contact.message")}
@@ -244,7 +244,7 @@ export function ContactSection() {
                   placeholder={t("contact.messagePlaceholder")}
                 />
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
@@ -257,4 +257,4 @@ export function ContactSection() {
       </div>
     </section>
   );
-} 
+}

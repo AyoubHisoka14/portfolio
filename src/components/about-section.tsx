@@ -8,9 +8,9 @@ export function AboutSection() {
   const { t } = useLanguage();
 
   const personalInfo = [
-    { icon: User, label: t("about.name"), value: "Your Name" },
-    { icon: MapPin, label: t("about.location"), value: "Your City, Country" },
-    { icon: Calendar, label: t("about.birthday"), value: "January 1, 2000" },
+    { icon: User, label: t("about.name"), value: "Ayoub Bahammou" },
+    { icon: MapPin, label: t("about.location"), value: "Darmstadt, Germany" },
+    { icon: Calendar, label: t("about.birthday"), value: "September 4, 2001" },
     { icon: GraduationCap, label: t("about.degree"), value: "Computer Science" },
   ];
 
@@ -44,7 +44,7 @@ export function AboutSection() {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
               {t("about.personalInfo")}
             </h3>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {personalInfo.map((info, index) => (
                 <motion.div
@@ -76,16 +76,16 @@ export function AboutSection() {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
               {t("about.story")}
             </h3>
-            
+
             <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
               <p>
                 {t("about.story1")}
               </p>
-              
+
               <p>
                 {t("about.story2")}
               </p>
-              
+
               <p>
                 {t("about.story3")}
               </p>
@@ -107,4 +107,4 @@ export function AboutSection() {
       </div>
     </section>
   );
-} 
+}
