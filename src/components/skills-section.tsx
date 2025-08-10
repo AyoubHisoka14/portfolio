@@ -30,7 +30,7 @@ const skills = [
       },
       {
         name: "Tailwind CSS",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
         color: "bg-cyan-500"
       },
       {
@@ -103,11 +103,6 @@ const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
         color: "bg-blue-500"
       },
-      {
-        name: "Jetpack Compose",
-        logo: "https://developer.android.com/static/images/jetpack/compose/logo/compose-logo.svg",
-        color: "bg-blue-600"
-      },
     ],
   },
   {
@@ -125,12 +120,12 @@ const skills = [
       },
       {
         name: "CI/CD",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-        color: "bg-red-500"
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
+        color: "bg-gray-800"
       },
       {
         name: "AWS",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
         color: "bg-yellow-600"
       },
       {
@@ -139,9 +134,9 @@ const skills = [
         color: "bg-purple-500"
       },
       {
-        name: "Jest",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-        color: "bg-red-600"
+        name: "REST API",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+        color: "bg-orange-500"
       },
     ],
   },
@@ -312,10 +307,10 @@ export function SkillsSection() {
 
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "skill.restful", "skill.graphql", "skill.redux", "skill.context", "skill.webpack",
-              "skill.vite", "skill.cicd", "skill.agile", "skill.problem", "skill.team",
-              "skill.review", "skill.testing", "skill.performance", "skill.seo", "skill.accessibility",
-              "skill.hilt", "skill.automated"
+               "skill.graphql", "skill.compose", "skill.context", "skill.reader",
+              "skill.vite",
+              "skill.hilt", "skill.automated", "skill.agile", "skill.problem", "skill.team",
+              "skill.review", "skill.performance", "skill.accessibility"
             ].map((skill, index) => (
               <motion.span
                 key={skill}

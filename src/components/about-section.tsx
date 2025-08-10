@@ -8,10 +8,10 @@ export function AboutSection() {
   const { t } = useLanguage();
 
   const personalInfo = [
-    { icon: User, label: t("about.name"), value: "Ayoub Bahammou" },
-    { icon: MapPin, label: t("about.location"), value: "Darmstadt, Germany" },
-    { icon: Calendar, label: t("about.birthday"), value: "September 4, 2001" },
-    { icon: GraduationCap, label: t("about.degree"), value: "Computer Science" },
+    { icon: User, label: t("about.name"), value: t("about.nameValue") },
+    { icon: MapPin, label: t("about.location"), value: t("about.locationValue") },
+    { icon: Calendar, label: t("about.birthday"), value: t("about.birthdayValue") },
+    { icon: GraduationCap, label: t("about.degree"), value: t("about.degreeValue") },
   ];
 
   return (

@@ -20,7 +20,7 @@ export function Footer() {
 
           <div className="flex space-x-6 mb-6 md:mb-0">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/AyoubHisoka14"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -29,22 +29,13 @@ export function Footer() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/ayoub-bahammou-0b8ba9289"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6" />
-            </a>
-            <a
-              href="https://twitter.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-6 w-6" />
             </a>
           </div>
         </div>

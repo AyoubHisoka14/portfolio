@@ -30,20 +30,14 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/ayoub-bahammou-0b8ba9289",
     color: "hover:bg-blue-600",
   },
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/AyoubHisoka14",
     color: "hover:bg-gray-800",
-  },
-  {
-    icon: Twitter,
-    label: "Twitter",
-    href: "https://twitter.com/yourusername",
-    color: "hover:bg-blue-400",
   },
 ];
 
@@ -141,7 +135,7 @@ export function ContactSection() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 transition-colors ${social.color}`}
+                    className={`w-12 h-12 bg-white dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 transition-colors ${social.color}`}
                     aria-label={social.label}
                   >
                     <social.icon className="h-6 w-6" />
@@ -151,16 +145,16 @@ export function ContactSection() {
             </div>
 
             {/* Availability */}
-            <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg">
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+            <div className="bg-white dark:bg-blue-900/20 p-6 rounded-lg">
+              <h4 className="text-lg font-semibold text-black dark:text-white mb-2">
                 {t("contact.availability")}
               </h4>
-              <p className="text-gray-600 dark:text-gray-400 mb-4">
+              <p className="text-black dark:text-gray-400 mb-4">
                 {t("contact.available")}
               </p>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="text-sm text-gray-600 dark:text-gray-400">
+                <span className="text-sm text-black dark:text-gray-400">
                   {t("contact.availableForProjects")}
                 </span>
               </div>

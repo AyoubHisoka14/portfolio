@@ -7,7 +7,7 @@ type Language = "en" | "de";
 interface LanguageContextType {
   language: Language;
   setLanguage: (language: Language) => void;
-  t: (key: string) => string;
+  t: (key: string) => string | string[];
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -40,9 +40,13 @@ const translations = {
     "about.clients": "Happy Clients",
     "about.personalInfo": "Personal Information",
     "about.name": "Name",
+    "about.nameValue": "Ayoub Bahammou",
     "about.location": "Location",
+    "about.locationValue": "Darmstadt, Germany",
     "about.birthday": "Birthday",
+    "about.birthdayValue": "September 4, 2001",
     "about.degree": "Degree",
+    "about.degreeValue": "Computer Science",
     "about.story": "My Story",
     "about.story1": "I'm a passionate software developer with a solid foundation in modern web, mobile and backend technologies. I hold a Bachelor's degree in Computer Science, and my journey in software development began with curiosity and has evolved into a deep commitment to building innovative and scalable solutions.",
     "about.story2": "Currently, I'm working as a Werkstudent (Working Student) in Android development, where I’ve gained valuable hands-on experience building mobile applications and collaborating within agile teams.",
@@ -67,6 +71,16 @@ const translations = {
     "projects.liveDemo": "Live Demo",
     "projects.viewMore": "View More on GitHub",
 
+    // Project Details
+    "projects.discoverApp.title": "Discover App",
+    "projects.discoverApp.description": "A comprehensive library of movies, series, and anime. Features user search and browsing capabilities with a modern, intuitive interface.",
+    "projects.pizzaservice.title": "Pizzaservice",
+    "projects.pizzaservice.description": "A pizza delivery service web application with online ordering, menu management, and order tracking functionality.",
+    "projects.groupUp.title": "GroupUp",
+    "projects.groupUp.description": "An Android application designed for university students to find partners for laboratory work and group projects.",
+    "projects.travelAgency.title": "TravelAgency",
+    "projects.travelAgency.description": "A desktop application for travel agency management with booking system, customer management, and itinerary planning features.",
+
     // Experience Section
     "experience.title": "Experience",
     "experience.subtitle": "My professional journey",
@@ -83,6 +97,20 @@ const translations = {
     "experience.softwareEng": "Software Engineering",
     "experience.machineLearning": "Machine Learning",
     "experience.networks": "Computer Networks",
+
+    // Work Experience Details
+    "experience.jobTitle": "Android Developer (Werkstudent)",
+    "experience.location": "Germany",
+    "experience.period": "April 2024 - Present",
+    "experience.description": "Working as a part-time Android developer while pursuing my studies. Contributing to mobile app development with focus on both frontend and backend aspects of the application.",
+    "experience.responsibilities": [
+      "Develop and maintain Android applications using Kotlin",
+      "Work on both frontend (UI/UX) and backend components of the app",
+      "Implement unit testing and ensure code quality",
+      "Collaborate with cross-functional teams in an agile environment",
+      "Participate in code reviews and contribute to improving development processes",
+      "Learn and implement new Android development technologies and best practices"
+    ],
 
     // Education Section
     "education.title": "Education",
@@ -110,10 +138,10 @@ const translations = {
     "contact.contactInfo": "Contact Information",
     "contact.followMe": "Follow Me",
     "contact.availability": "Availability",
-    "contact.available": "I'm currently available for freelance work and open to new opportunities.",
+    "contact.available": "I'm currently available for a full time job and open to new opportunities.",
     "contact.availableForProjects": "Available for new projects",
     "contact.sendMessage": "Send Me a Message",
-    "contact.namePlaceholder": "Ayoub Bahammou",
+    "contact.namePlaceholder": "Your Name",
     "contact.emailPlaceholder": "your.email@example.com",
     "contact.subjectPlaceholder": "What's this about?",
     "contact.messagePlaceholder": "Tell me about your project or opportunity...",
@@ -127,21 +155,18 @@ const translations = {
     // Additional Skills
     "skill.restful": "RESTful APIs",
     "skill.graphql": "GraphQL",
-    "skill.redux": "Redux",
     "skill.context": "Context API",
-    "skill.webpack": "Webpack",
+    "skill.compose": "Jetpack Compose",
     "skill.vite": "Vite",
-    "skill.cicd": "CI/CD",
-    "skill.agile": "Agile/Scrum",
-    "skill.problem": "Problem Solving",
-    "skill.team": "Team Collaboration",
-    "skill.review": "Code Review",
-    "skill.testing": "Testing",
+    "skill.reader": "PDF and EPUB Readers",
     "skill.performance": "Performance Optimization",
-    "skill.seo": "SEO",
     "skill.accessibility": "Accessibility",
     "skill.hilt": "Hilt Dependency Injection",
     "skill.automated": "Automated Testing",
+      "skill.agile": "Agile/Scrum",
+      "skill.problem": "Problem Solving",
+      "skill.team": "Team Collaboration",
+      "skill.review": "Code Review",
   },
   de: {
     // Navigation
@@ -170,9 +195,13 @@ const translations = {
     "about.clients": "Zufriedene Kunden",
     "about.personalInfo": "Persönliche Informationen",
     "about.name": "Name",
+    "about.nameValue": "Ayoub Bahammou",
     "about.location": "Standort",
+    "about.locationValue": "Darmstadt, Deutschland",
     "about.birthday": "Geburtstag",
+    "about.birthdayValue": "4. September 2001",
     "about.degree": "Abschluss",
+    "about.degreeValue": "Informatik",
     "about.story": "Meine Geschichte",
     "about.story1": "Ich bin ein leidenschaftlicher Softwareentwickler mit einem soliden Fundament in modernen Web-, Mobile- und Backend-Technologien. Ich habe einen Bachelorabschluss in Informatik und meine Reise in der Softwareentwicklung begann aus Neugier – heute ist sie eine echte Leidenschaft für die Entwicklung innovativer und skalierbarer Lösungen.",
     "about.story2": "Derzeit arbeite ich als Werkstudent im Bereich Android-Entwicklung, wo ich wertvolle praktische Erfahrungen in der Entwicklung mobiler Anwendungen und der Zusammenarbeit in agilen Teams sammle.",
@@ -196,6 +225,16 @@ const translations = {
     "projects.liveDemo": "Live Demo",
     "projects.viewMore": "Mehr auf GitHub ansehen",
 
+    // Project Details
+    "projects.discoverApp.title": "Discover App",
+    "projects.discoverApp.description": "Eine umfassende Bibliothek für Filme, Serien und Anime. Bietet Benutzersuche und Browsen-Funktionen mit einer modernen, intuitiven Benutzeroberfläche.",
+    "projects.pizzaservice.title": "Pizzaservice",
+    "projects.pizzaservice.description": "Eine Pizza-Lieferservice-Webanwendung mit Online-Bestellung, Menüverwaltung und Bestellverfolgung.",
+    "projects.groupUp.title": "GroupUp",
+    "projects.groupUp.description": "Eine Android-Anwendung für Universitätsstudenten, um Partner für Laborarbeiten und Gruppenprojekte zu finden.",
+    "projects.travelAgency.title": "TravelAgency",
+    "projects.travelAgency.description": "Eine Desktop-Anwendung für Reisebüro-Management mit Buchungssystem, Kundenverwaltung und Reiseplanungsfunktionen.",
+
     // Experience Section
     "experience.title": "Erfahrung",
     "experience.subtitle": "Mein beruflicher Werdegang",
@@ -212,6 +251,20 @@ const translations = {
     "experience.softwareEng": "Software Engineering",
     "experience.machineLearning": "Maschinelles Lernen",
     "experience.networks": "Computernetzwerke",
+
+    // Work Experience Details
+    "experience.jobTitle": "Android Entwickler (Werkstudent)",
+    "experience.location": "Deutschland",
+    "experience.period": "April 2024 - Aktuell",
+    "experience.description": "Arbeite als Teilzeit-Android-Entwickler während meines Studiums. Beiträge zur mobilen App-Entwicklung mit Fokus auf Frontend- und Backend-Aspekte der Anwendung.",
+    "experience.responsibilities": [
+      "Entwicklung und Wartung von Android-Anwendungen mit Kotlin",
+      "Arbeit an Frontend- (UI/UX) und Backend-Komponenten der App",
+      "Implementierung von Unit-Tests und Sicherstellung der Code-Qualität",
+      "Zusammenarbeit mit funktionsübergreifenden Teams in einer agilen Umgebung",
+      "Teilnahme an Code-Reviews und Beitrag zur Verbesserung der Entwicklungsprozesse",
+      "Lernen und Implementierung neuer Android-Entwicklungstechnologien und Best Practices"
+    ],
 
     // Education Section
     "education.title": "Ausbildung",
@@ -239,7 +292,7 @@ const translations = {
     "contact.contactInfo": "Kontaktinformationen",
     "contact.followMe": "Folgen Sie mir",
     "contact.availability": "Verfügbarkeit",
-    "contact.available": "Ich bin derzeit für Freelance-Arbeit verfügbar und offen für neue Möglichkeiten.",
+    "contact.available": "Ich bin derzeit für eine Vollzeitstelle verfügbar und offen für neue Möglichkeiten.",
     "contact.availableForProjects": "Verfügbar für neue Projekte",
     "contact.sendMessage": "Senden Sie mir eine Nachricht",
     "contact.namePlaceholder": "Ihr Name",
@@ -254,30 +307,27 @@ const translations = {
     "footer.using": "Next.js & Tailwind CSS",
 
     // Additional Skills
-    "skill.restful": "RESTful APIs",
-    "skill.graphql": "GraphQL",
-    "skill.redux": "Redux",
-    "skill.context": "Context API",
-    "skill.webpack": "Webpack",
-    "skill.vite": "Vite",
-    "skill.cicd": "CI/CD",
-    "skill.agile": "Agile/Scrum",
-    "skill.problem": "Problemlösung",
-    "skill.team": "Teamarbeit",
-    "skill.review": "Code Review",
-    "skill.testing": "Testing",
-    "skill.performance": "Performance-Optimierung",
-    "skill.seo": "SEO",
-    "skill.accessibility": "Barrierefreiheit",
-    "skill.hilt": "Hilt Dependency Injection",
-    "skill.automated": "Automatisiertes Testing",
+      "skill.restful": "RESTful APIs",
+      "skill.graphql": "GraphQL",
+      "skill.context": "Context API",
+      "skill.compose": "Jetpack Compose",
+      "skill.vite": "Vite",
+      "skill.reader": "PDF and EPUB Readers",
+      "skill.performance": "Performance Optimization",
+      "skill.accessibility": "Accessibility",
+      "skill.hilt": "Hilt Dependency Injection",
+      "skill.automated": "Automated Testing",
+      "skill.agile": "Agile/Scrum",
+      "skill.problem": "Problem Solving",
+      "skill.team": "Team Collaboration",
+      "skill.review": "Code Review",
   },
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>("en");
 
-  const t = (key: string): string => {
+  const t = (key: string): string | string[] => {
     return translations[language][key as keyof typeof translations[typeof language]] || key;
   };
 

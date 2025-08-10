@@ -6,21 +6,14 @@ import { useLanguage } from "./language-provider";
 
 const experiences = [
   {
-    title: "Android Developer (Werkstudent)",
-    company: "Tech Company GmbH",
-    location: "Germany",
-    period: "April 2024 - Present",
-    description: "Working as a part-time Android developer while pursuing my studies. Contributing to mobile app development with focus on both frontend and backend aspects of the application.",
-    responsibilities: [
-      "Develop and maintain Android applications using Kotlin",
-      "Work on both frontend (UI/UX) and backend components of the app",
-      "Implement unit testing and ensure code quality",
-      "Collaborate with cross-functional teams in an agile environment",
-      "Participate in code reviews and contribute to improving development processes",
-      "Learn and implement new Android development technologies and best practices",
-    ],
-    technologies: ["Kotlin", "Android SDK", "Android Studio", "Unit Testing", "Git", "Agile/Scrum"],
-    companyUrl: "https://techcompany.com",
+    titleKey: "experience.jobTitle",
+    company: "Bolinda Labs GmbH",
+    locationKey: "experience.location",
+    periodKey: "experience.period",
+    descriptionKey: "experience.description",
+    responsibilitiesKey: "experience.responsibilities",
+    technologies: ["Kotlin", "Android SDK", "Android Studio", "Unit Testing", "UI Testing", "Git", "Agile/Scrum"],
+    companyUrl: "https://www.bolindalabs.com",
   },
 ];
 
@@ -60,7 +53,7 @@ export function ExperienceSection() {
                   <div className="flex items-center gap-2 mb-2">
                     <Building className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      {experience.title}
+                      {t(experience.titleKey)}
                     </h3>
                   </div>
 
@@ -80,18 +73,18 @@ export function ExperienceSection() {
                     </div>
                     <div className="flex items-center gap-1">
                       <MapPin className="h-4 w-4" />
-                      <span>{experience.location}</span>
+                      <span>{t(experience.locationKey)}</span>
                     </div>
                     <div className="flex items-center gap-1">
                       <Calendar className="h-4 w-4" />
-                      <span>{experience.period}</span>
+                      <span>{t(experience.periodKey)}</span>
                     </div>
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                {experience.description}
+                {t(experience.descriptionKey)}
               </p>
 
               <div className="grid lg:grid-cols-2 gap-8">
@@ -101,7 +94,7 @@ export function ExperienceSection() {
                     {t("experience.keyResponsibilities")}
                   </h4>
                   <ul className="space-y-2">
-                    {experience.responsibilities.map((responsibility, idx) => (
+                    {t(experience.responsibilitiesKey).map((responsibility: string, idx: number) => (
                       <li
                         key={idx}
                         className="flex items-start gap-2 text-gray-600 dark:text-gray-400"
