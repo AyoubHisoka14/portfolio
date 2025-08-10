@@ -8,140 +8,140 @@ const skills = [
   {
     category: "Frontend",
     technologies: [
-      { 
-        name: "React", 
+      {
+        name: "React",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        color: "bg-blue-500" 
+        color: "bg-blue-500"
       },
-      { 
-        name: "Next.js", 
+      {
+        name: "Next.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        color: "bg-black dark:bg-white" 
+        color: "bg-black dark:bg-white"
       },
-      { 
-        name: "JavaScript", 
+      {
+        name: "JavaScript",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        color: "bg-yellow-400" 
+        color: "bg-yellow-400"
       },
-      { 
-        name: "TypeScript", 
+      {
+        name: "TypeScript",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-        color: "bg-blue-600" 
+        color: "bg-blue-600"
       },
-      { 
-        name: "Tailwind CSS", 
+      {
+        name: "Tailwind CSS",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        color: "bg-cyan-500" 
+        color: "bg-cyan-500"
       },
-      { 
-        name: "HTML/CSS", 
+      {
+        name: "HTML/CSS",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        color: "bg-orange-500" 
+        color: "bg-orange-500"
       },
     ],
   },
   {
     category: "Backend",
     technologies: [
-      { 
-        name: "Node.js", 
+      {
+        name: "Node.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        color: "bg-green-600" 
+        color: "bg-green-600"
       },
-      { 
-        name: "Express.js", 
+      {
+        name: "Express.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-        color: "bg-gray-600" 
+        color: "bg-gray-600"
       },
-      { 
-        name: "Java", 
+      {
+        name: "Java",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        color: "bg-red-600" 
+        color: "bg-red-600"
       },
-      { 
-        name: "Kotlin", 
+      {
+        name: "Kotlin",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-        color: "bg-purple-600" 
+        color: "bg-purple-600"
       },
-      { 
-        name: "Spring Boot", 
+      {
+        name: "Spring Boot",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-        color: "bg-green-500" 
+        color: "bg-green-500"
       },
-      { 
-        name: "Python", 
+      {
+        name: "Python",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-        color: "bg-yellow-500" 
+        color: "bg-yellow-500"
       },
-      { 
-        name: "PostgreSQL", 
+      {
+        name: "PostgreSQL",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-        color: "bg-blue-700" 
+        color: "bg-blue-700"
       },
-      { 
-        name: "MySQL", 
+      {
+        name: "MySQL",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-        color: "bg-blue-600" 
+        color: "bg-blue-600"
       },
-      { 
-        name: "MongoDB", 
+      {
+        name: "MongoDB",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-        color: "bg-green-500" 
+        color: "bg-green-500"
       },
     ],
   },
   {
     category: "Mobile Development",
     technologies: [
-      { 
-        name: "Android", 
+      {
+        name: "Android",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
-        color: "bg-green-500" 
+        color: "bg-green-500"
       },
-      { 
-        name: "Flutter", 
+      {
+        name: "Flutter",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-        color: "bg-blue-500" 
+        color: "bg-blue-500"
       },
-      { 
-        name: "Jetpack Compose", 
+      {
+        name: "Jetpack Compose",
         logo: "https://developer.android.com/static/images/jetpack/compose/logo/compose-logo.svg",
-        color: "bg-blue-600" 
+        color: "bg-blue-600"
       },
     ],
   },
   {
     category: "Tools & Others",
     technologies: [
-      { 
-        name: "Git", 
+      {
+        name: "Git",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        color: "bg-orange-600" 
+        color: "bg-orange-600"
       },
-      { 
-        name: "Docker", 
+      {
+        name: "Docker",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        color: "bg-blue-500" 
+        color: "bg-blue-500"
       },
-      { 
-        name: "CI/CD", 
+      {
+        name: "CI/CD",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-        color: "bg-red-500" 
+        color: "bg-red-500"
       },
-      { 
-        name: "AWS", 
+      {
+        name: "AWS",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
-        color: "bg-yellow-600" 
+        color: "bg-yellow-600"
       },
-      { 
-        name: "Figma", 
+      {
+        name: "Figma",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        color: "bg-purple-500" 
+        color: "bg-purple-500"
       },
-      { 
-        name: "Jest", 
+      {
+        name: "Jest",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-        color: "bg-red-600" 
+        color: "bg-red-600"
       },
     ],
   },
@@ -151,7 +151,7 @@ export function SkillsSection() {
   const { t } = useLanguage();
 
   return (
-    <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="skills" className="py-20 bg-blue-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -181,7 +181,7 @@ export function SkillsSection() {
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white text-center">
                 {skillCategory.category}
               </h3>
-              
+
               {/* Special 3D Android Animation for Mobile Development */}
               {skillCategory.category === "Mobile Development" && (
                 <motion.div
@@ -224,7 +224,7 @@ export function SkillsSection() {
                           className="w-12 h-12"
                         />
                       </motion.div>
-                      
+
                       {/* Glowing effect */}
                       <motion.div
                         animate={{
@@ -239,7 +239,7 @@ export function SkillsSection() {
                         className="absolute inset-0 bg-green-400 rounded-full blur-xl"
                       />
                     </div>
-                    
+
                     {/* Floating particles */}
                     {[...Array(6)].map((_, i) => (
                       <motion.div
@@ -266,7 +266,7 @@ export function SkillsSection() {
                   </motion.div>
                 </motion.div>
               )}
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {skillCategory.technologies.map((tech, techIndex) => (
                   <motion.div
@@ -309,10 +309,10 @@ export function SkillsSection() {
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-8">
             {t("skills.additional")}
           </h3>
-          
+
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "skill.restful", "skill.graphql", "skill.redux", "skill.context", "skill.webpack", 
+              "skill.restful", "skill.graphql", "skill.redux", "skill.context", "skill.webpack",
               "skill.vite", "skill.cicd", "skill.agile", "skill.problem", "skill.team",
               "skill.review", "skill.testing", "skill.performance", "skill.seo", "skill.accessibility",
               "skill.hilt", "skill.automated"
@@ -333,4 +333,4 @@ export function SkillsSection() {
       </div>
     </section>
   );
-} 
+}
