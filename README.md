@@ -48,10 +48,10 @@ Update your personal information in the following files:
 #### 1. Layout (`src/app/layout.tsx`)
 ```typescript
 export const metadata: Metadata = {
-  title: "Ayoub Bahammou", // Update your name
+  title: "Portfolio | Your Name", // Update your name
   description: "Full-stack developer portfolio showcasing projects, skills, and experience",
   keywords: ["portfolio", "developer", "full-stack", "react", "next.js", "typescript"],
-  authors: [{ name: "Ayoub Bahammou" }], // Update your name
+  authors: [{ name: "Your Name" }], // Update your name
   // ...
 };
 ```
@@ -282,10 +282,6 @@ The portfolio is fully responsive and includes:
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
