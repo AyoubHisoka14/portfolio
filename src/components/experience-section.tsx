@@ -41,7 +41,7 @@ export function ExperienceSection() {
         <div className="space-y-12">
           {experiences.map((experience, index) => (
             <motion.div
-              key={`${experience.company}-${experience.title}`}
+              key={`${experience.company}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -94,7 +94,7 @@ export function ExperienceSection() {
                     {t("experience.keyResponsibilities")}
                   </h4>
                   <ul className="space-y-2">
-                    {t(experience.responsibilitiesKey).map((responsibility: string, idx: number) => (
+                    {(t(experience.responsibilitiesKey) as string[]).map((responsibility: string, idx: number) => (
                       <li
                         key={idx}
                         className="flex items-start gap-2 text-gray-600 dark:text-gray-400"

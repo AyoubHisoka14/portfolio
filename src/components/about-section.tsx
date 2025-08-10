@@ -48,7 +48,7 @@ export function AboutSection() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {personalInfo.map((info, index) => (
                 <motion.div
-                  key={info.label}
+                  key={`${info.label}-${index}`}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}

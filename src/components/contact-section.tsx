@@ -186,7 +186,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
-                    placeholder={t("contact.namePlaceholder")}
+                    placeholder={t("contact.namePlaceholder") as string}
                   />
                 </div>
 
@@ -202,7 +202,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
-                    placeholder={t("contact.emailPlaceholder")}
+                    placeholder={t("contact.emailPlaceholder") as string}
                   />
                 </div>
               </div>
@@ -219,7 +219,7 @@ export function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
-                  placeholder={t("contact.subjectPlaceholder")}
+                  placeholder={t("contact.subjectPlaceholder") as string}
                 />
               </div>
 
@@ -235,7 +235,7 @@ export function ContactSection() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 resize-none"
-                  placeholder={t("contact.messagePlaceholder")}
+                  placeholder={t("contact.messagePlaceholder") as string}
                 />
               </div>
 
