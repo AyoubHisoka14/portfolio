@@ -48,10 +48,10 @@ Update your personal information in the following files:
 #### 1. Layout (`src/app/layout.tsx`)
 ```typescript
 export const metadata: Metadata = {
-  title: "Portfolio | Your Name", // Update your name
+  title: "Ayoub Bahammou", // Update your name
   description: "Full-stack developer portfolio showcasing projects, skills, and experience",
   keywords: ["portfolio", "developer", "full-stack", "react", "next.js", "typescript"],
-  authors: [{ name: "Your Name" }], // Update your name
+  authors: [{ name: "Ayoub Bahammou" }], // Update your name
   // ...
 };
 ```

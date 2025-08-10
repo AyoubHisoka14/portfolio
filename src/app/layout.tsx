@@ -7,10 +7,13 @@ import { LanguageProvider } from "@/components/language-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Your Name",
+  title: "Ayoub Bahammou",
   description: "Software developer portfolio showcasing Android, web, and backend development projects, skills, and experience",
   keywords: ["portfolio", "developer", "software", "android", "web", "backend", "react", "next.js", "typescript", "java"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Ayoub Bahammou" }],
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export const viewport: Viewport = {
