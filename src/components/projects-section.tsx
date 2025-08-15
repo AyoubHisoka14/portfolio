@@ -8,7 +8,7 @@ const projects = [
   {
     titleKey: "projects.discoverApp.title",
     descriptionKey: "projects.discoverApp.description",
-    technologies: ["Spring Boot", "PostgreSQL", "React", "TypeScript"],
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "React", "TypeScript"],
     githubUrl: "https://github.com/AyoubHisoka14/discoverApp",
     liveUrl: "https://discover-app.vercel.app",
     image: "/api/placeholder/400/250",
