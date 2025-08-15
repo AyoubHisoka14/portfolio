@@ -110,15 +110,15 @@ export function ProjectsSection() {
                     <Github className="h-4 w-4" />
                     {t("projects.code")}
                   </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    {t("projects.liveDemo")}
-                  </a>
+                  {/*<a*/}
+                  {/*  href={project.liveUrl}*/}
+                  {/*  target="_blank"*/}
+                  {/*  rel="noopener noreferrer"*/}
+                  {/*  className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"*/}
+                  {/*>*/}
+                  {/*  <ExternalLink className="h-4 w-4" />*/}
+                  {/*  {t("projects.liveDemo")}*/}
+                  {/*</a>*/}
                 </div>
               </div>
             </motion.div>
