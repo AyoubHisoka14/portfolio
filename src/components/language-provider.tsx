@@ -68,7 +68,7 @@ const translations = {
     "projects.view": "View Project",
     "projects.github": "View Code",
     "projects.code": "Code",
-    "projects.liveDemo": "Live Demo",
+    "projects.liveDemo": "Overview",
     "projects.viewMore": "View More on GitHub",
 
     // Project Details
@@ -222,7 +222,7 @@ const translations = {
     "projects.view": "Projekt ansehen",
     "projects.github": "Code ansehen",
     "projects.code": "Code",
-    "projects.liveDemo": "Live Demo",
+    "projects.liveDemo": "Überblick",
     "projects.viewMore": "Mehr auf GitHub ansehen",
 
     // Project Details
