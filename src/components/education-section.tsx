@@ -6,22 +6,21 @@ import { useLanguage } from "./language-provider";
 
 const education = [
   {
-    degree: "Bachelor of Computer Science",
-    university: "German University Name",
-    location: "Germany",
-    period: "2021 - 2024",
-    description: "Completed my bachelor's degree in Computer Science with a focus on software development and modern technologies.",
-    coursework: [
-      "Data Structures & Algorithms",
-      "Web Development",
-      "Database Systems",
-      "Software Engineering",
-      "Machine Learning",
-      "Computer Networks",
-      "Mobile Development",
-      "Software Testing"
+    degreeKey: "education.degree",
+    universityKey: "education.university",
+    locationKey: "education.location",
+    periodKey: "education.period",
+    descriptionKey: "education.description",
+    courseworkKeys: [
+      "education.coursework.dataStructures",
+      "education.coursework.webDevelopment",
+      "education.coursework.databaseSystems",
+      "education.coursework.softwareEngineering",
+      "education.coursework.machineLearning",
+      "education.coursework.computerNetworks",
+      "education.coursework.mobileDevelopment",
+      "education.coursework.softwareTesting"
     ],
-    language: "German",
     gpa: "2.0", // German grading system (1.0 is best, 4.0 is passing)
   },
 ];
@@ -50,7 +49,7 @@ export function EducationSection() {
         <div className="space-y-12">
           {education.map((edu, index) => (
             <motion.div
-              key={`${edu.university}-${edu.degree}`}
+              key={`${edu.degreeKey}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -62,32 +61,29 @@ export function EducationSection() {
                   <div className="flex items-center gap-2 mb-2">
                     <GraduationCap className="h-5 w-5 text-green-600 dark:text-green-400" />
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      {edu.degree}
+                      {t(edu.degreeKey)}
                     </h3>
                   </div>
 
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 text-gray-600 dark:text-gray-400 mb-4">
                     <div className="flex items-center gap-1">
-                      <span className="font-medium">{edu.university}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
                       <MapPin className="h-4 w-4" />
-                      <span>{edu.location}</span>
+                      <span className="font-medium">{t(edu.universityKey)} - {t(edu.locationKey)}</span>
                     </div>
                     <div className="flex items-center gap-1">
                       <Calendar className="h-4 w-4" />
-                      <span>{edu.period}</span>
+                      <span>{t(edu.periodKey)}</span>
                     </div>
-                    <div className="flex items-center gap-1">
-                      <BookOpen className="h-4 w-4" />
-                      <span>Language: {edu.language}</span>
-                    </div>
+                    {/*<div className="flex items-center gap-1">*/}
+                    {/*  <BookOpen className="h-4 w-4" />*/}
+                    {/*  <span>{t("education.languageLabel")}: {t("education.languageValue")}</span>*/}
+                    {/*</div>*/}
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                {edu.description}
+                {t(edu.descriptionKey)}
               </p>
 
               <div className="grid lg:grid-cols-2 gap-8">
@@ -97,13 +93,13 @@ export function EducationSection() {
                     {t("education.relevantCoursework")}
                   </h4>
                   <div className="grid grid-cols-2 gap-2">
-                    {edu.coursework.map((course, idx) => (
+                    {edu.courseworkKeys.map((courseKey, idx) => (
                       <div
                         key={idx}
                         className="flex items-center gap-2 text-gray-600 dark:text-gray-400"
                       >
                         <span className="w-2 h-2 bg-green-600 dark:bg-green-400 rounded-full flex-shrink-0" />
-                        <span className="text-sm">{course}</span>
+                        <span className="text-sm">{t(courseKey)}</span>
                       </div>
                     ))}
                   </div>
@@ -117,7 +113,7 @@ export function EducationSection() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-gray-600 dark:text-gray-400">{t("education.language")}:</span>
-                      <span className="font-medium text-gray-900 dark:text-white">{edu.language}</span>
+                      <span className="font-medium text-gray-900 dark:text-white">{t("education.languageValue")}</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-gray-600 dark:text-gray-400">{t("education.gpa")}:</span>

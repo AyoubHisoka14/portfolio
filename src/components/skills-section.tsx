@@ -224,7 +224,7 @@ export function SkillsSection() {
 
           <div className="flex flex-wrap justify-center gap-3">
             {[
-               "skill.graphql", "skill.compose", "skill.context", "skill.reader",
+               "skill.graphql", "skill.compose", "skill.reader",
               "skill.vite",
               "skill.hilt", "skill.automated", "skill.agile", "skill.problem", "skill.team",
               "skill.review", "skill.performance", "skill.accessibility"
