@@ -48,11 +48,11 @@ const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         color: "bg-green-600"
       },
-      {
-        name: "Express.js",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-        color: "bg-gray-600"
-      },
+      // {
+      //   name: "Express.js",
+      //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      //   color: "bg-gray-600"
+      // },
       {
         name: "Java",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
@@ -123,16 +123,16 @@ const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
         color: "bg-gray-800"
       },
-      {
-        name: "AWS",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-        color: "bg-yellow-600"
-      },
-      {
-        name: "Figma",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        color: "bg-purple-500"
-      },
+      // {
+      //   name: "AWS",
+      //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      //   color: "bg-yellow-600"
+      // },
+      // {
+      //   name: "Figma",
+      //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      //   color: "bg-purple-500"
+      // },
       {
         name: "REST API",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
