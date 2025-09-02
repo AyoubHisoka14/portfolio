@@ -10,11 +10,13 @@ import { ExperienceSection } from "@/components/experience-section";
 import { EducationSection } from "@/components/education-section";
 import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
       <div className="min-h-screen bg-background">
+        <Analytics/>
         <Navigation />
         <main>
           <HeroSection />
@@ -28,5 +30,6 @@ export default function Home() {
         <Footer />
       </div>
     </ThemeProvider>
+
   );
 }
