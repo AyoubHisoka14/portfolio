@@ -138,6 +138,16 @@ const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
         color: "bg-orange-500"
       },
+      {
+        name: "Jira",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+        color: "bg-blue-600"
+      },
+      {
+        name: "JPA / Hibernate",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg",
+        color: "bg-yellow-700"
+      }
     ],
   },
 ];
