@@ -93,6 +93,11 @@ const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
         color: "bg-green-500"
       },
+      {
+        name: "JPA / Hibernate",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg",
+        color: "bg-yellow-700"
+      },
     ],
   },
   {
@@ -149,10 +154,10 @@ const skills = [
         color: "bg-blue-600"
       },
       {
-        name: "JPA / Hibernate",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg",
-        color: "bg-yellow-700"
-      }
+        name: "GitLab",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+        color: "bg-blue-600"
+      },
     ],
   },
 ];
