@@ -59,6 +59,11 @@ const skills = [
         color: "bg-red-600"
       },
       {
+        name: "PHP",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        color: "bg-red-600"
+      },
+      {
         name: "Kotlin",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
         color: "bg-purple-600"
