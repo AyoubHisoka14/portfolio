@@ -16,7 +16,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 pt-20 md:pt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -29,15 +29,15 @@ export function HeroSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 0.6 }}
-            className="flex justify-center mb-6"
+            className="flex justify-center mb-4 sm:mb-6"
           >
             <div className="relative">
-              <div className="w-42 h-42 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-200 dark:border-blue-800 shadow-lg">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-200 dark:border-blue-800 shadow-lg">
                 <Image
                   src="/pic.png"
                   alt="Ayoub Bahammou"
-                  width={160}
-                  height={160}
+                  width={224}
+                  height={224}
                   className="w-full h-full object-cover"
                   priority
                 />
