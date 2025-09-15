@@ -12,7 +12,7 @@ const experiences = [
     periodKey: "experience.period",
     descriptionKey: "experience.description",
     responsibilitiesKey: "experience.responsibilities",
-    technologies: ["Kotlin", "Android SDK", "Android Studio", "Unit Testing", "UI Testing", "Git", "Agile/Scrum"],
+    technologies: ["Kotlin", "Java", "Jetpack Compose", "Room", "Android SDK", "Hilt Dependency Injection", "Unit Testing", "UI Testing", "Git", "GitLab", "Agile/Scrum", "Android Studio", "Firebase"],
     companyUrl: "https://www.bolindalabs.com",
   },
 ];

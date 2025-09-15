@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ChevronDown, Download, Mail } from "lucide-react";
 import { useLanguage } from "./language-provider";
+import Image from "next/image";
 
 export function HeroSection() {
   const { t } = useLanguage();
@@ -23,6 +24,27 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="space-y-8"
         >
+          {/* Profile Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.1, duration: 0.6 }}
+            className="flex justify-center mb-6"
+          >
+            <div className="relative">
+              <div className="w-42 h-42 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-200 dark:border-blue-800 shadow-lg">
+                <Image
+                  src="/pic.png"
+                  alt="Ayoub Bahammou"
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                  priority
+                />
+              </div>
+            </div>
+          </motion.div>
+
           {/* Greeting */}
           <motion.p
             initial={{ opacity: 0 }}
@@ -84,7 +106,7 @@ export function HeroSection() {
               className="flex items-center gap-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 px-8 py-3 rounded-lg font-medium transition-colors duration-200"
             >
               <Download className="h-5 w-5" />
-              Download Resume
+              {t("hero.resume")}
             </a>
           </motion.div>
 

@@ -29,6 +29,7 @@ const translations = {
     "hero.subtitle": "I build modern web applications and mobile apps",
     "hero.description": "Passionate about creating innovative solutions and turning ideas into reality through code.",
     "hero.cta": "Get In Touch",
+    "hero.resume": "Download Resume",
     "hero.scroll": "Scroll Down",
 
     // About Section
@@ -199,6 +200,7 @@ const translations = {
     "hero.subtitle": "Ich entwickle moderne Webanwendungen und mobile Apps",
     "hero.description": "Leidenschaftlich für innovative Lösungen und die Umsetzung von Ideen in die Realität durch Code.",
     "hero.cta": "Kontakt aufnehmen",
+    "hero.resume": "Lebenslauf Herunterladen",
     "hero.scroll": "Nach unten scrollen",
 
     // About Section
