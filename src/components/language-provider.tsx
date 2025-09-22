@@ -73,13 +73,17 @@ const translations = {
     "projects.viewMore": "View More on GitHub",
 
     // Project Details
+    "projects.travelApp.title": "Travel App",
+    "projects.travelApp.description": "TravelApp is a web application designed to manage and track travels. It allows users to add, view, update, and delete travel plans. The application also includes a currency conversion feature.",
+    "projects.rideShare.title": "RideShare",
+    "projects.rideShare.description": "RideShare is a web application designed to facilitate the sharing of vehicles such as cars, bikes, and e-scooters. Users can borrow available vehicles, offer their own vehicles for borrowing.",
     "projects.discoverApp.title": "Discover App",
     "projects.discoverApp.description": "A comprehensive library of movies, series, and anime. Features user search and browsing capabilities with a modern, intuitive interface.",
-    "projects.pizzaservice.title": "Pizzaservice",
+    "projects.pizzaservice.title": "Pizza Service",
     "projects.pizzaservice.description": "A pizza delivery service web application with online ordering, menu management, and order tracking functionality.",
     "projects.groupUp.title": "GroupUp",
     "projects.groupUp.description": "An Android application designed for university students to find partners for laboratory work and group projects.",
-    "projects.travelAgency.title": "TravelAgency",
+    "projects.travelAgency.title": "Travel Agency",
     "projects.travelAgency.description": "A desktop application for travel agency management with booking system, customer management, and itinerary planning features.",
 
     // Experience Section
@@ -243,6 +247,10 @@ const translations = {
     "projects.viewMore": "Mehr auf GitHub ansehen",
 
     // Project Details
+    "projects.travelApp.title": "Travel App",
+    "projects.travelApp.description": "TravelApp ist eine Webanwendung zur Verwaltung und Nachverfolgung von Reisen. Sie ermöglicht es den Nutzern, Reisepläne hinzuzufügen, anzusehen, zu aktualisieren und zu löschen. Außerdem enthält die Anwendung eine Währungsumrechnungsfunktion.",
+    "projects.rideShare.title": "RideShare",
+    "projects.rideShare.description": "RideShare ist eine Webanwendung, die das Teilen von Fahrzeugen wie Autos, Fahrrädern und E-Scootern erleichtert. Nutzer können verfügbare Fahrzeuge ausleihen, ihre eigenen Fahrzeuge zur Verfügung stellen.",
     "projects.discoverApp.title": "Discover App",
     "projects.discoverApp.description": "Eine umfassende Bibliothek für Filme, Serien und Anime. Bietet Benutzersuche und Browsen-Funktionen mit einer modernen, intuitiven Benutzeroberfläche.",
     "projects.pizzaservice.title": "Pizzaservice",

@@ -51,7 +51,7 @@ const projects = [
   {
     titleKey: "projects.discoverApp.title",
     descriptionKey: "projects.discoverApp.description",
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "React", "TypeScript"],
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "React", "TypeScript"],
     githubUrl: "https://github.com/AyoubHisoka14/discoverApp",
     liveUrl: "https://discover-app.vercel.app",
     images: [
@@ -75,6 +75,24 @@ const projects = [
       "/images/discover-app/18.png",
       "/images/discover-app/19.png"
     ],
+    image: "/api/placeholder/400/250",
+  },
+  {
+    titleKey: "projects.rideShare.title",
+    descriptionKey: "projects.rideShare.description",
+    technologies: ["Node.js","PostgreSQL","MikroORM", "Docker", "React", "TypeScript", "PayPal APIs"],
+    githubUrl: "https://github.com/AyoubHisoka14/RideShare",
+    liveUrl: "https://discover-app.vercel.app",
+    images: [],
+    image: "/api/placeholder/400/250",
+  },
+  {
+    titleKey: "projects.travelApp.title",
+    descriptionKey: "projects.travelApp.description",
+    technologies: ["Node.js","PostgreSQL", "MikroORM", "Docker", "React", "TypeScript"],
+    githubUrl: "https://github.com/AyoubHisoka14/travelApp",
+    liveUrl: "https://discover-app.vercel.app",
+    images: [],
     image: "/api/placeholder/400/250",
   },
 ];
@@ -216,22 +234,22 @@ export function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-200 dark:border-gray-700"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-200 dark:border-gray-700 flex flex-col min-h-[420px] max-h-[420px]"
             >
               {/* Project Image */}
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 relative overflow-hidden">
+              <div className="h-40 bg-gradient-to-br from-blue-400 to-purple-500 relative overflow-hidden">
                               <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                 <span className="text-white text-lg font-medium">{t(project.titleKey)}</span>
               </div>
               </div>
 
               {/* Project Content */}
-              <div className="p-6">
+              <div className="p-6 flex flex-col h-full">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {t(project.titleKey)}
                 </h3>
 
-                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-5">
                   {t(project.descriptionKey)}
                 </p>
 
@@ -248,7 +266,7 @@ export function ProjectsSection() {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex gap-3">
+                <div className="mt-auto flex gap-3">
                   <a
                     href={project.githubUrl}
                     target="_blank"
