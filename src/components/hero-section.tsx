@@ -100,14 +100,14 @@ export function HeroSection() {
               {t("hero.cta")}
             </button>
 
-            <a
-              href="/resume.pdf"
-              download
-              className="flex items-center gap-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 px-8 py-3 rounded-lg font-medium transition-colors duration-200"
-            >
-              <Download className="h-5 w-5" />
-              {t("hero.resume")}
-            </a>
+            {/*<a*/}
+            {/*  href="/resume.pdf"*/}
+            {/*  download*/}
+            {/*  className="flex items-center gap-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-600 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 px-8 py-3 rounded-lg font-medium transition-colors duration-200"*/}
+            {/*>*/}
+            {/*  <Download className="h-5 w-5" />*/}
+            {/*  {t("hero.resume")}*/}
+            {/*</a>*/}
           </motion.div>
 
           {/* Scroll Indicator */}

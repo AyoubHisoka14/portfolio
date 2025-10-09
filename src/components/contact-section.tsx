@@ -12,12 +12,12 @@ const contactInfo = [
     value: "ayoubbahammou2001@gmail.com",
     href: "mailto:ayoubbahammou2001@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+49 152 293 93 769",
-    href: "tel:+4915229393769",
-  },
+  // {
+  //   icon: Phone,
+  //   label: "Phone",
+  //   value: "+49 152 293 93 769",
+  //   href: "tel:+4915229393769",
+  // },
   {
     icon: MapPin,
     label: "Location",
