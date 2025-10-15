@@ -94,7 +94,7 @@ export function AboutSection() {
             {/* Key Points */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
               <div className="text-center p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">1+</div>
+                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">2+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{t("about.yearsExp")}</div>
               </div>
               <div className="text-center p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">

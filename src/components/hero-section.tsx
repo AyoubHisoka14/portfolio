@@ -50,7 +50,7 @@ export function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-blue-600 dark:text-blue-400 font-medium"
+            className="text-2xl si text-blue-600 dark:text-blue-400 font-medium"
           >
             {t("hero.greeting")}
           </motion.p>
