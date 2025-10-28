@@ -14,6 +14,11 @@ const skills = [
         color: "bg-blue-500"
       },
       {
+        name: "Angular",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg",
+        color: "bg-blue-500"
+      },
+      {
         name: "Next.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
         color: "bg-black dark:bg-white"
